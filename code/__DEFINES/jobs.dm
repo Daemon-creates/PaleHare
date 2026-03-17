@@ -182,18 +182,22 @@
 #define DESERT_RIDER	(1<<0)
 #define GRENZELHOFT		(1<<1)
 
-#define GOBLIN		(1<<8)
+#define SERIDON	(1<<10)
 
-#define GOBLINKING	(1<<0)
-#define GOBLINCOOK	(1<<1)
-#define GOBLINGUARD	(1<<2)
-#define GOBLINSMITH	(1<<3)
+#define WARDEN	(1<<0) //a well-dressed snob with little armour
+#define INFANTRY (1<<1) //The Standard Role, has subclasses to it. 
+#define GRANDKNIGHT (1<<2) //better armor. A sword and a rifle. 
+#define PHYSIE	(1<<3) //medic support role. 
+#define VULWIK	(1<<4) //magical mechanic role. 
 
-#define SLOP		(1<<9)
+#define KVANI	(1<<12) 
 
-#define TESTER		(1<<0)
-#define DEATHKNIGHT (1<<1)
-#define SKELETON	(1<<2)
+#define ZAWLA (1<<0) //a well-dressed snob with little armour.
+#define SHARAB (1<<0) //The Standard Role, has subclasses to it. 
+#define ANKA (1<<2) //Female sniper. 
+#define ALCHIE (1<<3) //Medic-alchemist. Has a small glass-garden. 
+#define ACEBID (1<<4) //Worshipper. 
+
 
 #define JCOLOR_NOBLE "#C500F0"
 #define JCOLOR_COURTIER "#81adc8"
@@ -202,80 +206,20 @@
 #define JCOLOR_YEOMAN "#819e82"
 #define JCOLOR_PEASANT "#b09262"
 #define JCOLOR_MERCENARY "#FF6F00"
-
+#define JCOLOR_SERIDON "#C96F3C"
+#define JCOLOR_KVANI "#523289"
 
 // job display orders //
 
 // Nobles
-#define JDO_LORD 1
-#define JDO_LADY 1.1
-#define JDO_PRINCE 1.2
-#define JDO_HAND 2
-#define JDO_STEWARD 3
-#define JDO_CLERK 3.1
-#define JDO_BAILIFF 4
-#define JDO_COUNCILLOR 4.1
+#define JDO_WARDEN 1
+#define JDO_INFANTRY 1.1
+#define JDO_GRANDKNIGHT 1.2
+#define JDO_PHYSIE 1.3
+#define JDO_VULWIK 1.4
 
-// Courtiers
-#define JDO_MAGICIAN 5
-#define JDO_MAGEAPPRENTICE 5.1
-#define JDO_PHYSICIAN 6
-#define JDO_JESTER 7
-#define JDO_BUTLER 7.1
-#define JDO_SERVANT 7.2
-
-#define JDO_SHERIFF 8
-#define JDO_KNIGHT 8.1
-#define JDO_SQUIRE 8.2
-#define JDO_CASTLEGUARD 8.3
-#define JDO_GATEMASTER 8.4
-#define JDO_TOWNGUARD 8.5
-#define JDO_DUNGEONEER 8.6
-#define JDO_VET 8.7
-#define JDO_BOGMASTER 9
-#define JDO_BOGGUARD 9.1
-#define JDO_CHIEF 9.2
-
-#define JDO_PRIEST 10
-#define JDO_PURITAN 11
-#define JDO_TEMPLAR 12
-#define JDO_MONK 13
-#define JDO_DRUID 13.1
-#define JDO_CHURCHLING 14
-#define JDO_GRAVEMAN 15
-#define JDO_SHEPHERD 16
-
-#define JDO_MERCHANT 17
-#define JDO_SHOPHAND 17.1
-#define JDO_GRABBER 17.2
-
-#define JDO_ARCHIVIST 18
-
-#define JDO_ARMORER 19
-#define JDO_WEAPONSMITH 20
-#define JDO_APPRENTICE 21
-
-#define JDO_MASON 22
-
-#define JDO_BARKEEP 26
-#define JDO_COOK 27
-
-#define JDO_BUTCHER 27.1
-#define JDO_SOILSON 27.2
-
-#define JDO_NIGHTMASTER 28
-#define JDO_WENCH 28.1
-
-#define JDO_VILLAGER 30
-#define JDO_ADVENTURER 30.1
-#define JDO_PILGRIM 30.2
-#define JDO_DRIFTER 32.3
-
-#define JDO_GRENZELHOFT 31
-#define JDO_DESERT_RIDER 32
-
-#define JDO_VAGRANT 33
-#define JDO_ORPHAN 34
-
-#define JDO_PRISONER 35
-#define JDO_LUNATIC 35.1
+#define JDO_ZAWLA 2
+#define JDO_SHARAB 2.1
+#define JDO_ANKA 2.2
+#define JDO_ALCHIE 2.3
+#define JDO_ACEBID 2.4
